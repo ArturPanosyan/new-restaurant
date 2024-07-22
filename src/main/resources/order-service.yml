@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3036/order-service
+    username: root
+    password: root
+    driver-class-name: org.mysql.Driver
